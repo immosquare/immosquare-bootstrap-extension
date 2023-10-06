@@ -13,7 +13,6 @@
   --bs-primary-bg-subtle: color-mix(in srgb, var(--color1) 20%, white 80%);
   --bs-secondary-bg-subtle: color-mix(in srgb, var(--color2) 20%, white 80%);
   --bs-primary-border-subtle: color-mix(in srgb, var(--color1) 20%, white 80%);
-  --bs-border-color: color-mix(in srgb, var(--color1) 5%, black 5%);
   --bs-progress-bar-bg: var(--color1);
 }
 
@@ -36,18 +35,10 @@ hr {
   --bs-btn-hover-border-color: color-mix(in srgb, var(--color1) 90%, black 10%);
   --bs-btn-active-color: var(--color1-contrast);
   --bs-btn-active-bg: color-mix(in srgb, var(--color1) 80%, black 20%);
-  --bs-btn-active-border-color: color-mix(
-    in srgb,
-    var(--color1) 80%,
-    black 20%
-  );
+  --bs-btn-active-border-color: color-mix(in srgb,var(--color1) 80%,black 20%);
   --bs-btn-disabled-bg: color-mix(in srgb, var(--color1) 80%, white 20%);
   --bs-btn-disabled-color: var(--color1-contrast);
-  --bs-btn-disabled-border-color: color-mix(
-    in srgb,
-    var(--color1) 80%,
-    white 20%
-  );
+  --bs-btn-disabled-border-color: color-mix(in srgb, var(--color1) 80%, white 20%);
 }
 
 .btn-outline-primary {
