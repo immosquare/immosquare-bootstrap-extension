@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [1.0.5] - 2023-10-06
+
+- fix border color
+
 ## [1.0.4] - 2023-10-06
 
 - Improve performance (base.scss & base-bootstrap)
