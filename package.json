@@ -1,5 +1,5 @@
 {
-  "name"   :"immosquare-bootstrap-extension",
+  "name"   :"@immosquare/immosquare-bootstrap-extension",
   "version":"1.0.0",
   "main"   :"immosquare-bootstrap-extension.scss"
 }
