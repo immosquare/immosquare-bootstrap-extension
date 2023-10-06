@@ -33,7 +33,7 @@ Once defined, you can include the Immopsquare Bootstrap Extension in your SCSS (
 @import "@immosquare/immosquare-bootstrap-extension/base";
 ```
 
-or with boostrap sources
+or with bootstrap sources
 
 ```scss
 @import "@immosquare/immosquare-bootstrap-extension/base-bootstrap";
