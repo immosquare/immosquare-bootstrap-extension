@@ -10,7 +10,7 @@ With this module, you no longer have to hard-code your Bootstrap colors. Instead
 Install this module as you would with any NPM package:
 
 ```bash
-npm install immosquare-bootstrap-extension
+bun add @immosquare/immosquare-bootstrap-extension
 ```
 
 ## Usage
@@ -27,10 +27,16 @@ To use the theme, you must first define the root colors in your styles:
 ```
 
 
-Once defined, you can include the Immopsquare Bootstrap Extension in your SCSS:
+Once defined, you can include the Immopsquare Bootstrap Extension in your SCSS (wihtout bootstrap sources)
 
 ```scss
-@import "immosquare-bootstrap-extension/immosquare-bootstrap-extension.scss";
+@import "@immosquare/immosquare-bootstrap-extension/base";
+```
+
+or with boostrap sources
+
+```scss
+@import "@immosquare/immosquare-bootstrap-extension/base-bootstrap";
 ```
 
 This will style Bootstrap components according to the defined theme in the module, with the custom colors you set in your project.

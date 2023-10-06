@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [1.0.4] - 2023-10-06
+
+- Improve performance (base.scss & base-bootstrap)
+
 ## [1.0.3] - 2023-10-06
 
 - conditionally import bootstrap

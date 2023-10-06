@@ -1,6 +1,6 @@
 {
   "name":            "@immosquare/immosquare-bootstrap-extension",
-  "version":         "1.0.3",
+  "version":         "1.0.4",
   "description":     "The Immopsquare Bootstrap Extension provides a dynamic approach to manage Bootstrap colors using custom css variables",
   "main":            "base.scss",
   "author":          "IMMO SQUARE",

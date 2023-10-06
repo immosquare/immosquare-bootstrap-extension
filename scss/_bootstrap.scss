@@ -7,8 +7,6 @@
 // ====================================================
 // 2. Include any default variable overrides here
 // ====================================================
-$primary: yellow;
-$component-active-bg: yellow;
 $enable-rounded: true;
 $enable-shadows: true;
 $enable-negative-margins: true;
@@ -17,8 +15,8 @@ $enable-responsive-font-sizes: true;
 // ====================================================
 // 3. Pour amélioer le rangeSlider
 // ====================================================
-
 $form-range-track-height: 0.2rem;
+
 // ====================================================
 // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
 // ====================================================
@@ -66,8 +64,7 @@ $zindex-levels: map-merge(
 
 // ====================================================
 // 5.bis Include any default utilities overrides here
-// Puis on ajout nos propres classes de utilities
-// qui manquent de base dans bootstrap
+//
 // https://getbootstrap.com/docs/5.3/utilities/api/#add-utilities
 // ..
 // width:           (overwrite): on veut ajotuer des valeurs en plus et on le veut responsive,
@@ -130,9 +127,8 @@ $utilities: map-merge(
 );
 
 // ====================================================
-// 6. Optionally include any other parts as needed
-// Puis on charge le layout de bootstrap que l'on a
-// copié de node_modules/bootstrap/scss/bootstrap.scss
+// 6. Load boostrap modules
+// (node_modules/bootstrap/scss/bootstrap.scss)
 // ====================================================
 @import "bootstrap/scss/reboot";
 @import "bootstrap/scss/type";
@@ -167,7 +163,6 @@ $utilities: map-merge(
 @import "bootstrap/scss/helpers";
 
 // ====================================================
-// Puis on charge l'api  que l'on a copié
 // include utilities API last to generate classes based on the Sass map in `_utilities.scss`
 // ====================================================
 @import "bootstrap/scss/utilities/api";
