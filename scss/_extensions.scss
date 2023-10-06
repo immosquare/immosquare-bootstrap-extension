@@ -1,0 +1,113 @@
+img {
+  -webkit-user-drag: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-primary-contrast {
+  color: var(--color1-contrast);
+}
+
+.text-secondary-contrast {
+  color: var(--color2-contrast);
+}
+
+.fill-primary {
+  fill: var(--color1);
+}
+
+.fill-secondary {
+  fill: var(--color2);
+}
+
+.hover-primary {
+  &:hover {
+    color: var(--color1);
+  }
+}
+
+// ====================================================
+// Rails
+// To clearly see when a translation is missing
+// ====================================================
+.translation_missing {
+  border-style: dashed;
+  border-width: medium;
+  border-color: red;
+}
+
+
+// ====================================================
+// First, brightness(0) makes all image black, except transparent parts,
+// which remain transparent.
+// Then, invert(1) makes the black parts white.
+// ====================================================
+.filter-black {
+  filter: brightness(0);
+}
+
+.filter-white {
+  filter: brightness(0) invert(1);
+}
+
+// ====================================================
+// Css Filter Generator
+// https://angel-rs.github.io/css-color-filter-generator/
+// https://stackoverflow.com/questions/42966641/how-to-transform-black-into-any-given-color-using-only-css-filters
+// ====================================================
+.filter-gray {
+  filter: brightness(0) saturate(100%) invert(99%) sepia(15%) saturate(4981%)
+    hue-rotate(177deg) brightness(85%) contrast(92%);
+}
+
+
+.bg-primary-custom {
+  background-image: linear-gradient(
+    55deg,
+    color-mix(in srgb, var(--color1) 80%, white 30%) 40%,
+    color-mix(in srgb, var(--color1) 80%, white 20%) 40%,
+    color-mix(in srgb, var(--color1) 80%, white 20%) 60%,
+    var(--color1) 60%
+  );
+}
+
+
+
+.bg-secondary-custom {
+  background-image: linear-gradient(
+    55deg,
+    color-mix(in srgb, var(--color2) 80%, white 30%) 40%,
+    color-mix(in srgb, var(--color2) 80%, white 20%) 40%,
+    color-mix(in srgb, var(--color2) 80%, white 20%) 60%,
+    var(--color2) 60%
+  );
+}
+
+// ====================================================
+// Svg Fluid To ensure that the ratio is
+// kept without adding white around the height
+// ====================================================
+.svg-fluid {
+  width: 100%; 
+  display: inline-block; 
+  svg {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+  }
+}
+
+
+// ====================================================
+// To put buttons with long text on
+// multiple lines
+// ====================================================
+.btn {
+  white-space: normal;
+}

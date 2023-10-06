@@ -1,0 +1,267 @@
+// ====================================================
+// Root
+// ====================================================
+:root {
+  --bs-primary: var(--color1);
+  --bs-secondary: var(--color2);
+  --bs-primary-rgb: var(--color1-rgb);
+  --bs-secondary-rgb: var(--color2-rgb);
+  --bs-link-color: var(--color1);
+  --bs-link-color-rgb: var(--color1-rgb);
+  --bs-link-hover-color: var(--color1);
+  --bs-link-hover-color-rgb: var(--color1-rgb);
+  --bs-primary-bg-subtle: color-mix(in srgb, var(--color1) 20%, white 80%);
+  --bs-secondary-bg-subtle: color-mix(in srgb, var(--color2) 20%, white 80%);
+  --bs-primary-border-subtle: color-mix(in srgb, var(--color1) 20%, white 80%);
+  --bs-border-color: color-mix(in srgb, var(--color1) 5%, black 5%);
+  --bs-progress-bar-bg: var(--color1);
+}
+
+// ====================================================
+// General
+// ====================================================
+hr {
+  border-top-color: var(--color1);
+}
+
+// ====================================================
+// Buttons
+// ====================================================
+.btn-primary {
+  --bs-btn-color: var(--color1-contrast);
+  --bs-btn-bg: var(--color1);
+  --bs-btn-border-color: var(--color1);
+  --bs-btn-hover-color: var(--color1-contrast);
+  --bs-btn-hover-bg: color-mix(in srgb, var(--color1) 90%, black 10%);
+  --bs-btn-hover-border-color: color-mix(in srgb, var(--color1) 90%, black 10%);
+  --bs-btn-active-color: var(--color1-contrast);
+  --bs-btn-active-bg: color-mix(in srgb, var(--color1) 80%, black 20%);
+  --bs-btn-active-border-color: color-mix(
+    in srgb,
+    var(--color1) 80%,
+    black 20%
+  );
+  --bs-btn-disabled-bg: color-mix(in srgb, var(--color1) 80%, white 20%);
+  --bs-btn-disabled-color: var(--color1-contrast);
+  --bs-btn-disabled-border-color: color-mix(
+    in srgb,
+    var(--color1) 80%,
+    white 20%
+  );
+}
+
+.btn-outline-primary {
+  --bs-btn-color: var(--color1);
+  --bs-btn-border-color: var(--color1);
+  --bs-btn-hover-color: var(--color1-contrast);
+  --bs-btn-hover-bg: var(--color1);
+  --bs-btn-hover-border-color: var(--color1);
+  --bs-btn-active-color: var(--color1-contrast);
+  --bs-btn-active-bg: var(--color1);
+  --bs-btn-active-border-color: var(--color1);
+  --bs-btn-disabled-color: var(--color1);
+  --bs-btn-disabled-border-color: var(--color1);
+}
+
+.btn-secondary {
+  --bs-btn-color: var(--color2-contrast);
+  --bs-btn-bg: var(--color2);
+  --bs-btn-border-color: var(--color2);
+  --bs-btn-hover-color: var(--color2-contrast);
+  --bs-btn-hover-bg: color-mix(in srgb, var(--color2) 90%, black 10%);
+  --bs-btn-hover-border-color: color-mix(in srgb, var(--color2) 90%, black 10%);
+  --bs-btn-active-color: var(--color2-contrast);
+  --bs-btn-active-bg: color-mix(in srgb, var(--color2) 80%, black 20%);
+  --bs-btn-active-border-color: color-mix(
+    in srgb,
+    var(--color2) 80%,
+    black 20%
+  );
+  --bs-btn-disabled-bg: color-mix(in srgb, var(--color2) 80%, white 20%);
+  --bs-btn-disabled-color: var(--color2-contrast);
+  --bs-btn-disabled-border-color: color-mix(
+    in srgb,
+    var(--color2) 80%,
+    #ffffffbd 20%
+  );
+}
+
+.btn-outline-secondary {
+  --bs-btn-color: var(--color2);
+  --bs-btn-border-color: var(--color2);
+  --bs-btn-hover-color: var(--color2-contrast);
+  --bs-btn-hover-bg: var(--color2);
+  --bs-btn-hover-border-color: var(--color2);
+  --bs-btn-active-color: var(--color2-contrast);
+  --bs-btn-active-bg: var(--color2);
+  --bs-btn-active-border-color: var(--color2);
+  --bs-btn-disabled-color: var(--color2);
+  --bs-btn-disabled-border-color: var(--color2);
+}
+
+.btn-light {
+  box-shadow: 0px 1px 4px 0px color-mix(in srgb, var(--color1) 2%, black 3%) !important;
+}
+
+.btn-close {
+  --bs-btn-close-focus-shadow: color-mix(in srgb, var(--color1) 20%, white 80%);
+}
+
+// ====================================================
+// Table
+// ====================================================
+.table {
+  --bs-table-hover-bg: color-mix(in srgb, var(--color1) 3%, white 97%);
+}
+
+// ====================================================
+// Card
+// ====================================================
+.card {
+  --bs-card-border-color: color-mix(in srgb, var(--color1) 5%, black 5%);
+}
+
+// ====================================================
+// Dropdown
+// ====================================================
+.dropdown-menu {
+  --bs-dropdown-link-hover-color: var(--color1);
+  --bs-dropdown-link-hover-bg: color-mix(in srgb, var(--color1) 30%, white 70%);
+
+  [data-method="delete"]:hover {
+    background: rgba($danger, 0.1);
+    color: $danger;
+  }
+}
+
+.dropdown-item {
+  --bs-dropdown-link-active-bg: var(--color1);
+}
+
+// ====================================================
+// Nav
+// ====================================================
+.nav {
+  --bs-nav-link-color: var(--color1);
+}
+
+.nav-pills {
+  --bs-nav-pills-link-active-color: var(--color1-contrast);
+  --bs-nav-pills-link-active-bg: var(--color1);
+}
+// ====================================================
+// progress bar
+// ====================================================
+.progress-bar {
+  background-color: var(--color1) !important;
+}
+// ====================================================
+// pagination
+// ====================================================
+.pagination {
+  --bs-pagination-color: var(--color1);
+  --bs-pagination-active-bg: var(--color1);
+  --bs-pagination-active-border-color: var(--color1);
+  --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgb(var(--color1-rgb) 0.25);
+}
+
+// ====================================================
+// Form
+// ====================================================
+
+// ====================================================
+// For inputs of type string, text. select
+// To have a blur when we focus on it
+// ====================================================
+.form-control,
+.form-select {
+  &:focus {
+    border-color: var(--color1);
+    box-shadow:
+      inset 0 1px 2px rgb(0 0 0 / 7.5%),
+      0 0 0 0.25rem rgb(var(--color1-rgb) 0.2);
+  }
+}
+
+// ====================================================
+// For range imputs
+// ====================================================
+.form-range {
+  &::-webkit-slider-thumb {
+    background: var(--color1);
+    box-shadow: 0 0 0 0.25rem rgb(var(--color1-rgb) 0.2);
+
+    &:active {
+      background: var(--color1);
+    }
+  }
+
+  &::-moz-range-thumb {
+    background: var(--color1);
+    box-shadow: 0 0 0 0.25rem rgb(var(--color1-rgb) 0.2);
+
+    &:active {
+      background: var(--color1);
+    }
+  }
+
+  &::-ms-thumb {
+    background: var(--color1);
+    box-shadow: 0 0 0 0.25rem rgb(var(--color1-rgb) 0.2);
+
+    &:active {
+      background: var(--color1);
+    }
+  }
+}
+
+// ====================================================
+// For chexboxes imputs
+// ====================================================
+.form-check {
+  // ====================================================
+  // checkbox
+  // ===============================================
+  .form-check-input {
+    &:checked {
+      background-color: var(--color1);
+      border-color: var(--color1);
+      box-shadow: 0 0 0 0.25rem rgb(var(--color1-rgb) 0.2);
+    }
+
+    &:focus {
+      border-color: var(--color1) !important;
+      box-shadow: 0 0 0 0.25rem rgb(var(--color1-rgb) 0.2);
+    }
+  }
+
+  // ====================================================
+  // style for checkboxes (non-switch). We change
+  // pipe it by default with a square within a square.
+  // ====================================================
+  &:not(.form-switch) {
+    input[type="checkbox"] {
+      border-width: 2px;
+      border-radius: 4px;
+      cursor: pointer;
+      position: relative;
+
+      &:checked {
+        background-color: var(--bs-form-check-bg);
+        border: 2px solid var(--color1) !important;
+
+        + label {
+          color: var(--color1);
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          inset: 2px;
+          background-color: var(--color1);
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+}
