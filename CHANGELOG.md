@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [1.0.3] - 2023-10-06
+
+- conditionally import bootstrap
+
 ## [1.0.2] - 2023-10-06
 
 - Add bootstrap

@@ -1,3 +1,8 @@
-@import "scss/bootstrap";
+$immosquare-boostrap-extension-import-bootstrap: true !default;
+
+@if $immosquare-boostrap-extension-import-bootstrap {
+  @import "scss/bootstrap";
+}
+
 @import "scss/colors";
 @import "scss/extensions";

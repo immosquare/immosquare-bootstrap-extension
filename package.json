@@ -1,10 +1,12 @@
 {
-  "name":         "@immosquare/immosquare-bootstrap-extension",
-  "version":      "1.0.3",
-  "description":  "The Immopsquare Bootstrap Extension provides a dynamic approach to manage Bootstrap colors using custom css variables",
-  "main":         "base.scss",
-  "author":       "IMMO SQUARE",
-  "license":      "MIT",
-  "homepage":     "https://github.com/IMMOSQUARE/immosquare-bootstrap-extension",
-  "dependencies": {"bootstrap": "^5.3.2"}
+  "name":            "@immosquare/immosquare-bootstrap-extension",
+  "version":         "1.0.3",
+  "description":     "The Immopsquare Bootstrap Extension provides a dynamic approach to manage Bootstrap colors using custom css variables",
+  "main":            "base.scss",
+  "author":          "IMMO SQUARE",
+  "license":         "MIT",
+  "homepage":        "https://github.com/IMMOSQUARE/immosquare-bootstrap-extension",
+  "dependencies": {"bootstrap": "^5.3.2"},
+  "devDependencies": {"npm-check-updates": "^16.14.5"},
+  "scripts": {"bun-ncu": "bun ncu -u && bun install"}
 }
