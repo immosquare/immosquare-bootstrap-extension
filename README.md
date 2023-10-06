@@ -19,14 +19,13 @@ To use the theme, you must first define the root colors in your styles:
 
 ```css
 :root {
-  --color1: #YourPrimaryColor;
-  --color2: #YourSecondaryColor;
-  --color1-contrast: #YourPrimaryContrastColor; /* Typically a text color that contrasts well with color1 */
-  --color2-contrast: #YourSecondaryContrastColor; /* Typically a text color that contrasts well with color2 */
+  --color1: #FF0000;
+  --color2: #00FFFF;
+  --color1-contrast: #FFFFFF; /* Typically a text color that contrasts well with color1 */
+  --color2-contrast: #000000; /* Typically a text color that contrasts well with color2 */
 }
 ```
 
-Replace `#YourPrimaryColor`, `#YourSecondaryColor`, `#YourPrimaryContrastColor`, and `#YourSecondaryContrastColor` with your desired colors.
 
 Once defined, you can include the Immopsquare Bootstrap Extension in your SCSS:
 
