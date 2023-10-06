@@ -1,6 +1,6 @@
 # Immopsquare Bootstrap Extension
 
-The Immopsquare Bootstrap Extension provides a dynamic approach to manage Bootstrap colors using custom variables. It's designed to simplify and enhance the theming process of your Bootstrap-based projects. In addition to offering a customizable palette, this extension introduces several additional CSS definitions to enrich the visual presentation and ensure a coherent and appealing interface.
+The Immopsquare Bootstrap Extension provides a dynamic approach to manage Bootstrap colors using custom css variables. It's designed to simplify and enhance the theming process of your Bootstrap-based projects. In addition to offering a customizable palette, this extension introduces several additional CSS definitions to enrich the visual presentation and ensure a coherent and appealing interface.
 
 With this module, you no longer have to hard-code your Bootstrap colors. Instead, you can easily adjust the color scheme by changing a few root variables, making it both flexible and maintainable. Beyond color management, it incorporates additional styles and tweaks, ensuring your project stands out with a unique touch.
 
