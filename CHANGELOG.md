@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [1.0.y] - 2023-10-08
+
+- remove hr
+
 ## [1.0.6] - 2023-10-06
 
 - fix card border
