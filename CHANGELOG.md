@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [1.0.6] - 2023-10-06
+
+- fix card border
+
 ## [1.0.5] - 2023-10-06
 
 - fix border color
