@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [1.0.9] - 2023-10-11
+
+- improve .svg-fluid for small svg
+
 ## [1.0.8] - 2023-10-11
 
 - remove table rule
