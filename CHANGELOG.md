@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [1.0.10] - 2023-10-11
+
+- improve .svg-fluid
+
 ## [1.0.9] - 2023-10-11
 
 - improve .svg-fluid for small svg
