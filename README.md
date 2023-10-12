@@ -20,9 +20,13 @@ To use the theme, you must first define the root colors in your styles:
 ```css
 :root {
   --color1: #FF0000;
+
   --color2: #00FFFF;
+
   --color1-contrast: #FFFFFF; /* Typically a text color that contrasts well with color1 */
+
   --color2-contrast: #000000; /* Typically a text color that contrasts well with color2 */
+
 }
 ```
 
@@ -40,6 +44,13 @@ or with bootstrap sources
 ```
 
 This will style Bootstrap components according to the defined theme in the module, with the custom colors you set in your project.
+
+## Demo
+```
+bun parcel demo/index.html
+# Server running at http://localhost:1234
+```
+
 
 
 ## Contributing
