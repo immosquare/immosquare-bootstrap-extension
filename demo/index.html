@@ -1,12 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="auto">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8" >
     <title>Demo App</title>
-    <link rel="stylesheet" href="style.scss" />
+    <link rel="stylesheet" href="style.scss" >
+    <script type="module" src="app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" >
   </head>
   <body>
-    <div class="container">
+
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navbar-nav ms-auto">
+            <div class="nav-item dropdown me-3">
+              <div class="nav-link" data-bs-toggle="dropdown">
+                <i class="cursor-pointer text-body fa-solid fa-w fa-circle-half-stroke"></i>
+              </div>
+              <div class="dropdown-menu dropdown-menu-end">
+                <div class="dropdown-header">Mode d'affiche</div>
+                <div class="d-flex align-items-center dropdown-item cursor-pointer" data-theme-mode="light">
+                  <i class="fa-solid fa-w fa-sun"></i>
+                  <span class="d-inline-block ms-2">Clair</span>
+                </div>
+                <div class="d-flex align-items-center dropdown-item cursor-pointer" data-theme-mode="dark">
+                  <i class="fa-solid fa-w fa-moon"></i>
+                  <span class="d-inline-block ms-2">Sombre</span>
+                </div>
+                <div class="d-flex align-items-center dropdown-item cursor-pointer" data-theme-mode="auto">
+                  <i class="fa-solid fa-w  fa-circle-half-stroke"></i>
+                  <span class="d-inline-block ms-2">Automatique</span>
+                  <span class="ms-auto ps-2 data-mode-check "><i class="fa-solid fa-check"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container py-3">
+      <div>Text</div>
+      <div class="text-body-secondary">Text secondary</div>
+      <div class="text-body-tertiary">Text tertiary</div>
       <div class="h1 text-primary">Title primary</div>
       <div class="h1 text-secondary">Title secondary</div>
 
@@ -15,6 +55,20 @@
         <button class="btn btn-secondary">Button Secondary</button>
       </div>
 
+      <section class="bg-primary p-3">
+        <div class="mb-2">
+          <button class="btn btn-body">Button body</button>
+          <button class="btn btn-body disabled">Button body disabled</button>
+        </div>
+        <div class="mb-2">
+          <button class="btn btn-body-secondary">Button body secondary</button>
+          <button class="btn btn-body-secondary disabled">Button body secondary disabled</button>
+        </div>
+        <div class="mb-2">
+          <button class="btn btn-body-tertiary">Button body tertiary</button>
+          <button class="btn btn-body-tertiary disabled">Button body tertiary disabled</button>
+        </div>
+      </section>
     </div>
   </body>
 </html>
