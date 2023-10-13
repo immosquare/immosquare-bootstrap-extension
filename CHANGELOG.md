@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [1.0.11] - 2023-10-11
+
+- add 3 buttons style btn-body, btn-body-secondary, btn-body-tertiary
+
 ## [1.0.10] - 2023-10-11
 
 - improve .svg-fluid
