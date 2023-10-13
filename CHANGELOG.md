@@ -1,6 +1,10 @@
 ## [Unreleased]
 
-## [1.0.11] - 2023-10-11
+## [1.0.12] - 2023-10-12
+
+- Improve borders colors
+
+## [1.0.11] - 2023-10-12
 
 - add 3 buttons style btn-body, btn-body-secondary, btn-body-tertiary
 
