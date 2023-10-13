@@ -19,13 +19,17 @@ To use the theme, you must first define the root colors in your styles:
 
 ```css
 :root {
-  --color1: #FF0000;
+  --color1: #b6a6ca;
 
-  --color2: #00FFFF;
+  --color1-rgb: 182,166,202;
 
-  --color1-contrast: #FFFFFF; /* Typically a text color that contrasts well with color1 */
+  --color2: #1A7278;
 
-  --color2-contrast: #000000; /* Typically a text color that contrasts well with color2 */
+  --color2-rgb: 25,114,120;
+
+  --color1-contrast: #FFFFFF;
+
+  --color2-contrast: #FFFFFF;
 
 }
 ```
