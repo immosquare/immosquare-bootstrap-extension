@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [1.0.15] - 2023-10-25
+
+- Fix border color
+
 ## [1.0.14] - 2023-10-25
 
 - Improve variation btn
