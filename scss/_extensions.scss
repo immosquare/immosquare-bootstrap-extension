@@ -94,8 +94,12 @@ textarea {
   --bs-btn-disabled-border-color: color-mix(in srgb, var(--bs-border-color) 80%, white 20%);
 }
 
-
-
+.btn-primary-subtle {
+  --bs-btn-color: var(--color1);
+  --bs-btn-bg: color-mix(in srgb, var(--color1) 20%, white 80%);
+  --bs-btn-hover-bg: var(--color1);
+  --bs-btn-hover-color: var(--color1-contrast);
+}
 
 // ====================================================
 // Rails
