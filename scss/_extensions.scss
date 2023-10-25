@@ -96,8 +96,8 @@ textarea {
 
 .btn-primary-subtle {
   --bs-btn-color: var(--color1);
-  --bs-btn-bg: color-mix(in srgb, var(--color1) 20%, white 0%);
-  --bs-btn-border-color: color-mix(in srgb, var(--color1) 20%, white 0%);
+  --bs-btn-bg: color-mix(in srgb, var(--color1) 20%, white 80%);
+  --bs-btn-border-color: color-mix(in srgb, var(--color1) 20%, white 80%);
   --bs-btn-hover-color: var(--color1-contrast);
   --bs-btn-hover-bg: var(--color1);
   --bs-btn-hover-border-color: var(--color1);
