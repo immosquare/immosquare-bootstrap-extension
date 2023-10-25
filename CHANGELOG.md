@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [1.0.13] - 2023-10-25
+
+- New variation btn
+
 ## [1.0.12] - 2023-10-12
 
 - Improve borders colors
