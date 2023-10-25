@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [1.0.14] - 2023-10-25
+
+- Improve variation btn
+
 ## [1.0.13] - 2023-10-25
 
 - New variation btn

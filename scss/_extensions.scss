@@ -96,9 +96,18 @@ textarea {
 
 .btn-primary-subtle {
   --bs-btn-color: var(--color1);
-  --bs-btn-bg: color-mix(in srgb, var(--color1) 20%, white 80%);
-  --bs-btn-hover-bg: var(--color1);
+  --bs-btn-bg: color-mix(in srgb, var(--color1) 20%, white 0%);
+  --bs-btn-border-color: color-mix(in srgb, var(--color1) 20%, white 0%);
   --bs-btn-hover-color: var(--color1-contrast);
+  --bs-btn-hover-bg: var(--color1);
+  --bs-btn-hover-border-color: var(--color1);
+  --bs-btn-active-color: var(--color1);
+  --bs-btn-active-bg: color-mix(in srgb, var(--color1) 50%, white 50%);
+  --bs-btn-active-border-color: color-mix(in srgb, var(--color1) 50%, white 50%);
+  --bs-btn-disabled-bg: color-mix(in srgb, var(--color1) 60%, white 40%);
+  --bs-btn-disabled-color: var(--color1-contrast);
+  --bs-btn-disabled-border-color: color-mix(in srgb, var(--color1) 60%, white 40%);
+
 }
 
 // ====================================================
