@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [1.0.17] - 2023-11-10
+
+- Add list group
+
 ## [1.0.16] - 2023-10-25
 
 - Fix border color
