@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [1.0.18] - 2023-11-14
+
+- Improve hover-primary
+
 ## [1.0.17] - 2023-11-10
 
 - Add list group
