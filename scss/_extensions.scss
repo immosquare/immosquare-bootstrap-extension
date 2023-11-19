@@ -11,11 +11,11 @@ textarea {
 }
 
 .text-primary-contrast {
-  color: var(--color1-contrast);
+  color: var(--color1-contrast) !important;
 }
 
 .text-secondary-contrast {
-  color: var(--color2-contrast);
+  color: var(--color2-contrast) !important;
 }
 
 .fill-primary {
@@ -31,6 +31,14 @@ textarea {
     color: var(--color1) !important;
   }
 }
+
+.hover-secondary {
+  &:hover {
+    color: var(--color2) !important;
+  }
+}
+
+
 
 
 // ====================================================

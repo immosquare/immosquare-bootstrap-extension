@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [1.0.19] - 2023-11-19
+
+- Improve hover-seconcary + color-contrast
+
 ## [1.0.18] - 2023-11-14
 
 - Improve hover-primary
