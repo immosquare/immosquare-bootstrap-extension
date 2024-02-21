@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [1.0.20] - 2024-02-21
+
+- Bump Bootstrap to 5.3.3
+
 ## [1.0.19] - 2023-11-19
 
 - Improve hover-seconcary + color-contrast
