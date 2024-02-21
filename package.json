@@ -5,12 +5,12 @@
   "author":          "IMMO SQUARE",
   "license":         "MIT",
   "homepage":        "https://github.com/IMMOSQUARE/immosquare-bootstrap-extension",
-  "dependencies": {"bootstrap": "^5.3.2"},
+  "dependencies": {"bootstrap": "^5.3.3"},
   "devDependencies": {
-    "@parcel/transformer-sass": "2.10.3",
+    "@parcel/transformer-sass": "2.11.0",
     "@popperjs/core":           "^2.11.8",
-    "npm-check-updates":        "^16.14.6",
-    "parcel":                   "^2.10.3"
+    "npm-check-updates":        "^16.14.15",
+    "parcel":                   "^2.11.0"
   },
   "scripts": {"bun-ncu": "bun ncu -u && bun install"}
 }
