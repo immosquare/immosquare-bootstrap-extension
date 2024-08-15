@@ -9,7 +9,7 @@
   "devDependencies": {
     "@parcel/transformer-sass": "2.12.0",
     "@popperjs/core":           "^2.11.8",
-    "npm-check-updates":        "^16.14.20",
+    "npm-check-updates":        "^17.0.6",
     "parcel":                   "^2.12.0"
   },
   "scripts": {"bun-ncu": "bun ncu -u && bun install"}
