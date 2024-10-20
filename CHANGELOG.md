@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [1.0.21] - 2024-10-20
+
+- Improve styles
+
 ## [1.0.20] - 2024-02-21
 
 - Bump Bootstrap to 5.3.3
