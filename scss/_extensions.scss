@@ -38,9 +38,6 @@ textarea {
   }
 }
 
-
-
-
 // ====================================================
 // To put buttons with long text on multiple lines
 // ====================================================
@@ -60,7 +57,7 @@ textarea {
   --bs-btn-hover-border-color: color-mix(in srgb, var(--bs-border-color) 90%, black 10%);
   --bs-btn-active-color: var(--bs-body-color);
   --bs-btn-active-bg: color-mix(in srgb, var(--bs-body-bg) 80%, black 20%);
-  --bs-btn-active-border-color: color-mix(in srgb,var(--bs-border-color) 80%,black 20%);
+  --bs-btn-active-border-color: color-mix(in srgb, var(--bs-border-color) 80%, black 20%);
   --bs-btn-disabled-bg: color-mix(in srgb, var(--bs-body-bg) 80%, white 20%);
   --bs-btn-disabled-color: var(--bs-body-color);
   --bs-btn-disabled-border-color: color-mix(in srgb, var(--bs-border-color) 80%, white 20%);
@@ -78,7 +75,7 @@ textarea {
   --bs-btn-hover-border-color: color-mix(in srgb, var(--bs-border-color) 90%, black 10%);
   --bs-btn-active-color: var(--bs-secondary-color);
   --bs-btn-active-bg: color-mix(in srgb, var(--bs-secondary-bg) 80%, black 20%);
-  --bs-btn-active-border-color: color-mix(in srgb,var(--bs-border-color) 80%,black 20%);
+  --bs-btn-active-border-color: color-mix(in srgb, var(--bs-border-color) 80%, black 20%);
   --bs-btn-disabled-bg: color-mix(in srgb, var(--bs-secondary-bg) 80%, white 20%);
   --bs-btn-disabled-color: var(--bs-secondary-color);
   --bs-btn-disabled-border-color: color-mix(in srgb, var(--bs-border-color) 80%, white 20%);
@@ -96,7 +93,7 @@ textarea {
   --bs-btn-hover-border-color: color-mix(in srgb, var(--bs-border-color) 90%, black 10%);
   --bs-btn-active-color: var(--bs-tertiary-color);
   --bs-btn-active-bg: color-mix(in srgb, var(--bs-tertiary-bg) 80%, black 20%);
-  --bs-btn-active-border-color: color-mix(in srgb,var(--bs-border-color) 80%,black 20%);
+  --bs-btn-active-border-color: color-mix(in srgb, var(--bs-border-color) 80%, black 20%);
   --bs-btn-disabled-bg: color-mix(in srgb, var(--bs-tertiary-bg) 80%, white 20%);
   --bs-btn-disabled-color: var(--bs-tertiary-color);
   --bs-btn-disabled-border-color: color-mix(in srgb, var(--bs-border-color) 80%, white 20%);
@@ -115,7 +112,6 @@ textarea {
   --bs-btn-disabled-bg: color-mix(in srgb, var(--color1) 60%, white 40%);
   --bs-btn-disabled-color: var(--color1-contrast);
   --bs-btn-disabled-border-color: color-mix(in srgb, var(--color1) 60%, white 40%);
-
 }
 
 // ====================================================
@@ -127,7 +123,6 @@ textarea {
   border-width: medium;
   border-color: red;
 }
-
 
 // ====================================================
 // First, brightness(0) makes all image black, except transparent parts,
@@ -148,31 +143,15 @@ textarea {
 // https://stackoverflow.com/questions/42966641/how-to-transform-black-into-any-given-color-using-only-css-filters
 // ====================================================
 .filter-gray {
-  filter: brightness(0) saturate(100%) invert(99%) sepia(15%) saturate(4981%)
-    hue-rotate(177deg) brightness(85%) contrast(92%);
+  filter: brightness(0) saturate(100%) invert(99%) sepia(15%) saturate(4981%) hue-rotate(177deg) brightness(85%) contrast(92%);
 }
-
 
 .bg-primary-custom {
-  background-image: linear-gradient(
-    55deg,
-    color-mix(in srgb, var(--color1) 80%, white 30%) 40%,
-    color-mix(in srgb, var(--color1) 80%, white 20%) 40%,
-    color-mix(in srgb, var(--color1) 80%, white 20%) 60%,
-    var(--color1) 60%
-  );
+  background-image: linear-gradient(55deg, color-mix(in srgb, var(--color1) 80%, white 30%) 40%, color-mix(in srgb, var(--color1) 80%, white 20%) 40%, color-mix(in srgb, var(--color1) 80%, white 20%) 60%, var(--color1) 60%);
 }
 
-
-
 .bg-secondary-custom {
-  background-image: linear-gradient(
-    55deg,
-    color-mix(in srgb, var(--color2) 80%, white 30%) 40%,
-    color-mix(in srgb, var(--color2) 80%, white 20%) 40%,
-    color-mix(in srgb, var(--color2) 80%, white 20%) 60%,
-    var(--color2) 60%
-  );
+  background-image: linear-gradient(55deg, color-mix(in srgb, var(--color2) 80%, white 30%) 40%, color-mix(in srgb, var(--color2) 80%, white 20%) 40%, color-mix(in srgb, var(--color2) 80%, white 20%) 60%, var(--color2) 60%);
 }
 
 // ====================================================
@@ -180,20 +159,16 @@ textarea {
 // kept without adding white around the height
 // ====================================================
 .svg-fluid {
-  width: 100%; 
-  display: inline-block; 
+  width: 100%;
+  display: inline-block;
   svg {
     max-width: 100%;
     height: auto;
-    display: block; 
-    margin-left:auto;
-    margin-right:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
-
-
-
-
 
 // ====================================================
 // Small existe deja dans bootstrap.. on rajoute big

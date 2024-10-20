@@ -16,7 +16,6 @@
   --bs-progress-bar-bg: var(--color1);
 }
 
-
 // ====================================================
 // Buttons
 // ====================================================
@@ -29,7 +28,7 @@
   --bs-btn-hover-border-color: color-mix(in srgb, var(--color1) 90%, black 10%);
   --bs-btn-active-color: var(--color1-contrast);
   --bs-btn-active-bg: color-mix(in srgb, var(--color1) 80%, black 20%);
-  --bs-btn-active-border-color: color-mix(in srgb,var(--color1) 80%,black 20%);
+  --bs-btn-active-border-color: color-mix(in srgb, var(--color1) 80%, black 20%);
   --bs-btn-disabled-bg: color-mix(in srgb, var(--color1) 80%, white 20%);
   --bs-btn-disabled-color: var(--color1-contrast);
   --bs-btn-disabled-border-color: color-mix(in srgb, var(--color1) 80%, white 20%);
@@ -57,18 +56,10 @@
   --bs-btn-hover-border-color: color-mix(in srgb, var(--color2) 90%, black 10%);
   --bs-btn-active-color: var(--color2-contrast);
   --bs-btn-active-bg: color-mix(in srgb, var(--color2) 80%, black 20%);
-  --bs-btn-active-border-color: color-mix(
-    in srgb,
-    var(--color2) 80%,
-    black 20%
-  );
+  --bs-btn-active-border-color: color-mix(in srgb, var(--color2) 80%, black 20%);
   --bs-btn-disabled-bg: color-mix(in srgb, var(--color2) 80%, white 20%);
   --bs-btn-disabled-color: var(--color2-contrast);
-  --bs-btn-disabled-border-color: color-mix(
-    in srgb,
-    var(--color2) 80%,
-    #ffffffbd 20%
-  );
+  --bs-btn-disabled-border-color: color-mix(in srgb, var(--color2) 80%, #ffffffbd 20%);
 }
 
 .btn-outline-secondary {
@@ -91,8 +82,6 @@
 .btn-close {
   --bs-btn-close-focus-shadow: color-mix(in srgb, var(--color1) 20%, white 80%);
 }
-
-
 
 // ====================================================
 // Dropdown
@@ -123,14 +112,12 @@
   --bs-nav-pills-link-active-bg: var(--color1);
 }
 
-
 // ====================================================
 // progress bar
 // ====================================================
 .progress-bar {
   background-color: var(--color1) !important;
 }
-
 
 // ====================================================
 // pagination
@@ -142,13 +129,12 @@
   --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgb(var(--color1-rgb) 0.25);
 }
 
-
 // ====================================================
 // list group
 // ====================================================
 .list-group {
   --bs-list-group-active-color: var(--color1-contrast);
-  --bs-list-group-active-bg : var(--color1);
+  --bs-list-group-active-bg: var(--color1);
   --bs-list-group-active-border-color: var(--color1);
 }
 
