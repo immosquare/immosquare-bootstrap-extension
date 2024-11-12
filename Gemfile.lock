@@ -104,9 +104,10 @@ GEM
 PLATFORMS
   arm64-darwin-22
   arm64-darwin-23
+  arm64-darwin-24
 
 DEPENDENCIES
   immosquare-cleaner
 
 BUNDLED WITH
-   2.5.11
+   2.5.23
