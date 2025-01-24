@@ -44,7 +44,7 @@ Once defined, you can include the Immopsquare Bootstrap Extension in your SCSS (
 or with bootstrap sources
 
 ```scss
-@import "@immosquare/immosquare-bootstrap-extension/base-bootstrap";
+@import "@immosquare/immosquare-bootstrap-extension/src/base-bootstrap";
 ```
 
 This will style Bootstrap components according to the defined theme in the module, with the custom colors you set in your project.
