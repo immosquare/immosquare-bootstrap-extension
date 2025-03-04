@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" >
     <title>Demo App</title>
-    <link rel="stylesheet" href="style.scss" >
-    <script type="module" src="app.js"></script>
+    <link rel="stylesheet" href="./style.scss" >
+    <script type="module" src="./main.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" >
   </head>
   <body>
@@ -26,15 +26,17 @@
                 <div class="d-flex align-items-center dropdown-item cursor-pointer" data-theme-mode="light">
                   <i class="fa-solid fa-w fa-sun"></i>
                   <span class="d-inline-block ms-2">Clair</span>
+                  <span class="ms-auto ps-2 d-none mode-check"><i class="fa-solid fa-check"></i></span>
                 </div>
                 <div class="d-flex align-items-center dropdown-item cursor-pointer" data-theme-mode="dark">
                   <i class="fa-solid fa-w fa-moon"></i>
                   <span class="d-inline-block ms-2">Sombre</span>
+                  <span class="ms-auto ps-2 d-none mode-check"><i class="fa-solid fa-check"></i></span>
                 </div>
                 <div class="d-flex align-items-center dropdown-item cursor-pointer" data-theme-mode="auto">
                   <i class="fa-solid fa-w  fa-circle-half-stroke"></i>
                   <span class="d-inline-block ms-2">Automatique</span>
-                  <span class="ms-auto ps-2 data-mode-check "><i class="fa-solid fa-check"></i></span>
+                  <span class="ms-auto ps-2 mode-check"><i class="fa-solid fa-check"></i></span>
                 </div>
               </div>
             </div>
