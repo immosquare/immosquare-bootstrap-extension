@@ -1,3 +1,7 @@
+## [1.0.25] - 2025-03-04
+- use vite instead of parcel for demo
+- add hover method for each theme colors
+
 ## [1.0.24] - 2025-01-22
 - Move files into src folder
 
