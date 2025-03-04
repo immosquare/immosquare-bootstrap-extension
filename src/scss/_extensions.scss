@@ -26,15 +26,14 @@ textarea {
   fill: var(--color2);
 }
 
-.hover-primary {
-  &:hover {
-    color: var(--color1) !important;
-  }
-}
-
-.hover-secondary {
-  &:hover {
-    color: var(--color2) !important;
+// ====================================================
+// T
+// ====================================================
+@each $color, $value in $theme-colors {
+  .hover-#{$color} {
+    &:hover {
+      color: var(--bs-#{$color}) !important;
+    }
   }
 }
 
