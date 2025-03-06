@@ -176,3 +176,14 @@ textarea {
 .big {
   font-size: larger;
 }
+// ====================================================
+// Gestion de border dynamique
+// ====================================================
+.border-auto {
+  border-color: var(--bs-dark) !important;
+}
+@include color-mode(dark) {
+  .border-auto {
+    border-color: var(--bs-light) !important;
+  }
+}
