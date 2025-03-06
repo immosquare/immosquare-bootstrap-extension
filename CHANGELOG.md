@@ -1,3 +1,6 @@
+## [1.0.26] - 2025-03-06
+- add border-auto
+
 ## [1.0.25] - 2025-03-04
 - use vite instead of parcel for demo
 - add hover method for each theme colors
