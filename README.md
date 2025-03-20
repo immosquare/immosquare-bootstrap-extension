@@ -49,5 +49,9 @@ bun run dev
 # Server running at http://localhost:5173/
 ```
 
+## Deploy
+- update versio number in package.json
+- `npm publish`
+
 ## Contributing
 If you find any issues or would like to suggest improvements, feel free to create an issue or pull request.
