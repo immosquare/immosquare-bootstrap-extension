@@ -121,6 +121,8 @@ textarea {
   border-style: dashed;
   border-width: medium;
   border-color: red;
+  border-style: dashed;
+  animation: border-blink 1s infinite;
 }
 
 // ====================================================
@@ -135,6 +137,16 @@ textarea {
 .filter-white {
   filter: brightness(0) invert(1);
 }
+
+@include color-mode(dark) {
+  .dark-mode-filter-black {
+    filter: brightness(0);
+  }
+  .dark-mode-filter-white {
+    filter: brightness(0) invert(1);
+  }
+}
+
 
 // ====================================================
 // Css Filter Generator
