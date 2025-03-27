@@ -1,3 +1,8 @@
+## [1.0.28] - 2025-03-06
+- add new rules for dark mode :
+  - .dark-mode-filter-white
+  - .dark-mode-filter-black
+
 ## [1.0.27] - 2025-03-06
 - add lh-0
 
