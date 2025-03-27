@@ -50,7 +50,7 @@ bun run dev
 ```
 
 ## Deploy
-- update versio number in package.json
+- update version number in package.json
 - `npm publish`
 
 ## Contributing
