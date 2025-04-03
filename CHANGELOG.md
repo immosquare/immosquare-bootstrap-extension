@@ -1,3 +1,6 @@
+## [1.0.29] - 2025-03-03
+ - Update to bootstrap 5.3.4
+
 ## [1.0.28] - 2025-03-06
 - add new rules for dark mode :
   - .dark-mode-filter-white
