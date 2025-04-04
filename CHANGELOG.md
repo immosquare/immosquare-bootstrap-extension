@@ -1,3 +1,6 @@
+## [1.0.30] - 2025-03-04
+ - Update to bootstrap 5.3.4
+
 ## [1.0.29] - 2025-03-03
  - Update to bootstrap 5.3.4
 
