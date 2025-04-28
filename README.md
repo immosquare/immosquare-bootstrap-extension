@@ -54,4 +54,14 @@ bun run dev
 - `npm publish`
 
 ## Contributing
-If you find any issues or would like to suggest improvements, feel free to create an issue or pull request.
+
+install localy
+
+```json
+"dependencies": {
+    "@immosquare/immosquare-bootstrap-extension": "file:/Users/jules/Sites/es_modules/immosquare-bootstrap-extension",
+}
+```
+
+
+
