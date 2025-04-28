@@ -1,3 +1,6 @@
+## [1.0.31] - 2025-04-28
+ - Improve background management
+
 ## [1.0.30] - 2025-03-04
  - Update to bootstrap 5.3.4
 
