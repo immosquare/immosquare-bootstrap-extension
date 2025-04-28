@@ -17,6 +17,26 @@
 }
 
 // ====================================================
+// Background
+// De base boostrap gère 
+//.bg-secondary {
+//  --bs-bg-opacity: 1;
+//  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+//}
+// Se qui pose des problèmes si on passe des couleurs
+// qui gère deja leur propre opacité
+// --color2: #dac3986e;
+// --color2-rgb: 218, 195, 152, 0.43;
+// ====================================================
+.bg-primary {
+  background-color: var(--color1)!important;
+}
+.bg-secondary {
+  background-color: var(--color2)!important;
+}
+
+
+// ====================================================
 // Buttons
 // ====================================================
 .btn-primary {
